@@ -1,0 +1,17 @@
+# Vivado-generated files
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+.Xil/
+*.jou
+*.log
+*.str
+*.wdb
+*.dcp
+*.bit
+*.bin
+*.xsa
+*.xpr.bak
+*.zip
