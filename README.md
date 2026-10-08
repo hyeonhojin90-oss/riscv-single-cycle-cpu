@@ -30,6 +30,33 @@ The learner wrote and revised RTL/TBs in Vivado with AI-assisted explanations,
 examples and review. Independent authorship of every line is not claimed.
 The snapshot was copied without changing the original RTL.
 
+## Study Images
+
+These three images were supplied by the learner as study references. They are
+not simulation evidence or generated schematics of this repository. Original
+publication/source attribution has not yet been supplied; no original authorship
+or license for these reference images is asserted.
+
+### Datapath Reference
+
+![Annotated datapath study reference](docs/images/datapath-study.jpg)
+
+This reference labels the immediate output as 64 bits; this CPU uses 32-bit
+data paths. The diagram also shows a separate branch-immediate shift, whereas
+the implementation constructs the branch immediate in the immediate generator.
+It is a conceptual reference, not an exact representation of the current RTL.
+
+### Instruction Formats
+
+![RISC-V instruction formats](docs/images/instruction-formats.jpg)
+
+### Instruction Encodings
+
+![RISC-V instruction encoding study table](docs/images/instruction-encodings.jpg)
+
+The table is a learning reference, not a list of verified instructions. Not
+every encoding has been tested against this implementation.
+
 ## Verification Status
 
 Earlier learning sessions include a JALR waveform showing target PC `0x14`
